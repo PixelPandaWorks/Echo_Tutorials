@@ -195,6 +195,15 @@ header nav {
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--foreground);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  padding: 2px;
 }
 
 .nav-links {
@@ -235,6 +244,25 @@ header nav {
   align-items: center;
   position: relative;
   z-index: 2;
+}
+
+.footer-logo img {
+  height: 50px;
+  width: auto;
+}
+
+.hero-announcement {
+  font-family: serif; /* Typographical feel */
+  font-style: italic;
+  color: var(--primary-dark);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-left: 4px solid var(--accent);
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  box-shadow: var(--shadow-sm);
 }
 
 .badge {
