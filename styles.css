@@ -519,7 +519,7 @@ header nav {
   .features-grid,
   .courses-grid,
   .contact-wrapper {
-    grid-template-cols: 1fr;
+    grid-template-columns: 1fr;
   }
   .nav-links,
   .nav-cta {
